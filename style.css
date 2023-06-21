@@ -157,28 +157,17 @@ form {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  
 }
-.form-div {
-  display: flex;
+form div {
   flex-direction: column;
-  flex: 1;
-  margin: 10px;
-}
-.form-div:last-child {
-  flex: 1;
-  margin-right: 0;
-}
-.form-div label {
-  align-self: flex-start;
-  margin-top: auto;
 }
 
-.form-div input, .form-div select {
-  margin-top: 0;
-  margin-bottom: auto;
+form button {
+  flex: 1;
 }
-
+form select, form input {
+  margin-bottom: 10px;
+}
 
 /* -------  Main Section ------- */
 .group {
