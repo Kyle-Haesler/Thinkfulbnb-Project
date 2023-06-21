@@ -163,9 +163,11 @@ form {
   display: flex;
   flex-direction: column;
   flex: 1;
+  margin-right: 10px;
 }
-form button {
+.form-div:last-child {
   flex: 1;
+  margin-right: 0;
 }
 .form-div label {
   align-self: flex-start;
