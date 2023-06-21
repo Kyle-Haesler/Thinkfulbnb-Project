@@ -163,7 +163,7 @@ form {
   display: flex;
   flex-direction: column;
   flex: 1;
-  margin-right: 10px;
+  margin: 10px;
 }
 .form-div:last-child {
   flex: 1;
