@@ -155,13 +155,16 @@ header nav ul {
 /* -------  Form ------- */
 form {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-wrap: wrap;
   
 }
 .form-div {
   display: flex;
   flex-direction: column;
+  flex: 1;
+}
+form button {
   flex: 1;
 }
 .form-div label {
